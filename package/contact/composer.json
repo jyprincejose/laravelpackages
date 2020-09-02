@@ -1,0 +1,26 @@
+{
+    "name": "grohood/ordermanagement",
+    "description": "Order Management for backend",
+    "type": "library",
+    "license": "Grohood",
+    "authors": [
+        {
+            "name": "Prince JOse",
+            "email": "reachtoprince@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "grohood\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "grohood\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
